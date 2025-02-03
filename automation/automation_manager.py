@@ -35,22 +35,22 @@ class AutomationManager(object):
         try:
             self.query_concurrency_manager()
         except Exception as e:
-            self.logger.error("Sara's-queries Concurrency run failed => {}".format(e))
+            self.logger.error("?'s-queries Concurrency run failed => {}".format(e))
             sys.exit(1)
         else:
             if self.results:
                 self.logger.info("")
-                self.logger.info("End of sara's-queries, successful run, exiting program")
+                self.logger.info("End of ?'s-queries, successful run, exiting program")
                 sys.exit(0)
             else:
-                self.logger.warning("End of sara's-queries, un-successful run, exiting program")
+                self.logger.warning("End of ?'s-queries, un-successful run, exiting program")
                 sys.exit(1)
 
     # Run the qubole query for each of the queries concurrently
     #
     def query_concurrency_manager(self):
         self.logger.info("\n")
-        self.logger.info("Beginning the sara's-queries concurrent processing")
+        self.logger.info("Beginning the ?'s-queries concurrent processing")
         self.logger.info("\n")
 
         # activate concurrency logging handler
@@ -65,10 +65,10 @@ class AutomationManager(object):
             query_result.close()
             query_result.join()
         except Exception as e:
-            self.logger.error("Sara's-queries Concurrency run failed => {}".format(e))
+            self.logger.error("?'s-queries Concurrency run failed => {}".format(e))
         else:
             self.logger.info("\n")
-            self.logger.info("Concluded the sara's-queries concurrent processing\n")
+            self.logger.info("Concluded the ?'s-queries concurrent processing\n")
 
     # Runs a twice a week match and returns results
     #
