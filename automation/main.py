@@ -1,4 +1,4 @@
-# Sara's Qubole Audience_Basket and Audience_BasketDetail Queries for Kraft-
+# ?'s Qubole Audience_Basket and Audience_BasketDetail Queries for Kraft-
 
 # Description -
 # This automation runs two different Qubole/Hive queries concurrently.  They are launched using an ActiveBatch schedule
@@ -15,13 +15,13 @@
 #                       config.ini
 # Deployed Location:    //prd-use1a-pr-34-ci-operations-01/home/bradley.ruck/Projects/kraft_basket_queries/
 #
-# ActiveBatch Trigger:  where ever Sara sees fit
+# ActiveBatch Trigger:  where ever ? sees fit
 # Source Code:          //gitlab.oracledatacloud.com/odc-operations/Kraft_Basket_Queries/
 # LogFile Location:     utilizing ActiveBatch automation logging system
 #
 # Contact Information -
 # Primary Users:        Core Services
-# Lead Customer:        Sara Holden(sara.holden@oracle.com)
+# Lead Customer:        
 # Lead Developer:       Bradley Ruck (bradley.ruck@oracle.com)
 # Date Launched:        September, 2018
 # Date Updated:
