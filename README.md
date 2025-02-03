@@ -10,7 +10,7 @@ queries do not finish the automation exits with a (1), indicating failure.
 
 Required modules: <ul>
                   <li>main.py,
-                  <li>automation_manager.py.py,
+                  <li>automation_manager.py,
                   <li>qubole_manager.py,
                   <li>queries.py,
                   <li>config.ini
@@ -37,7 +37,7 @@ Primary Users:    <ul>
                   </ul>
 
 Lead Customer:    <ul>
-                  <li>Sara Holden (sara.holden@oracle.com)
+                  <li>
                   </ul>
 
 Lead Developer:   <ul>
