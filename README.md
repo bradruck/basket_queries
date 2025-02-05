@@ -17,13 +17,13 @@ Required modules: <ul>
                   </ul>
 
 Location:         <ul>
-                  <li>Deployment -> //prd-use1a-pr-34-ci-operations-01/home/bradley.ruck/Projects/kraft_basket_queries/
+                  <li>Deployment -> 
                   <li>               
-                  <li>Scheduled to run however Sara sees fit on ActiveBatch
+                  <li>Scheduled to run however ? sees fit on ActiveBatch
                   </ul>
 
 Source Code:      <ul>
-                  <li>//gitlab.oracledatacloud.com/odc-operations/Kraft_Basket_Queries/
+                  <li>
                   </ul>
 
 LogFile Location: <ul>
@@ -33,7 +33,7 @@ LogFile Location: <ul>
 **Contact Information -**
 
 Primary Users:    <ul>
-                  <li>Core Services
+                  <li>
                   </ul>
 
 Lead Customer:    <ul>
@@ -41,7 +41,7 @@ Lead Customer:    <ul>
                   </ul>
 
 Lead Developer:   <ul>
-                  <li>Bradley Ruck (bradley.ruck@oracle.com)
+                  <li>Bradley Ruck
                   </ul>
 
 Date Launched:    <ul>
